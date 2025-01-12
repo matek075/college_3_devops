@@ -3,7 +3,7 @@ services:
   backend:
     build:
       context: .
-      dockerfile: dockerfile
+      dockerfile: DOCKERFILE
     ports:
       - "5001:5001"
 
